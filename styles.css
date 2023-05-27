@@ -1,0 +1,61 @@
+body{
+    background-color: #d4df9e;
+    font-family: 'Inter', sans-serif;   /*COPIAMOS ESTO DESDE FONTS*/
+}
+
+header{
+    background-color: #ffc8dd;
+    height: 90px;      /*AQUÍ LE DAMOS LA PROPIEDAD DEL ALTO, AL COLOR*/ 
+    display: flex;      /*NOS DA CIERTA FLEXIBILIDAD A LA HORA DE ACOMODAR ELEMENTOS DE UNA CAJA*/
+    justify-content: center;    /*CENTRAMOS EL ENCABEZADO(HEADER)(HORIZONTALMENTE) JUNTO CON LA LÍNEA DE ABAJO*/ 
+    align-items: center;        /*VERTICALMENTE*/
+}
+nav{
+    background-color: #cdb4db;
+    height: 30px;
+    margin-top: 5px;       /*LE DIMOS PROPIEDAD AL MARGEN SUPERIOR*/
+    display: flex;
+    justify-content: space-around;  /*ESPACIO ALREDEDOR*/
+    align-items: center;
+}
+
+nav a{                      /*HACEMOS ÉNFASIS AL ARTÍCULO*/
+    color: blue;          /*COLOR DE TEXTO*/
+    text-decoration: none;  /*SACAMOS EL SUBRAYADO*/
+   
+}
+
+nav a:hover{                /*APLICAMOS UN FONDO AL PONER EL CURSOR SOBRENCIMA*/
+    background-color: #d4df9e;  
+}
+
+section h2{
+    text-align: center;     /*LO COLOCAMOS AL MEDIO DE LA PAG*/
+}
+
+section .articulos{         /*HACEMOS REFERENCIA A LA SECCION ARTICULOS O CLASE ARTICULOS*/
+    display: flex;          /*ACOMODAMOS LOS ARTICULOS UNO AL LADO DE OTRO*/
+}
+
+section .articulos article{     /*HACEMOS REFERENCIA A CADA UNO DE LOS ARTICULOS*/
+    background-color: #5b3000;
+    margin: 3px;            /*LE DAMOS ESPACIO DE MARGEN*/
+    padding: 5px;          /*LE DAMOS ESPACIO DEL TEXTO AL BORDE*/
+}
+
+section .articulos article h3{
+    text-align: center;     /*CENTRAMOS EL TEXTO DE H3*/
+    text-decoration:underline;
+}
+
+/*section .articulos article p {
+    /*text-align: justify;     JUSTIFICO EL TEXTO DEL ARTICULO
+}*/
+
+footer{
+    height:  50px;
+    background-color: #cdb4db;
+    margin-top: 5px;
+    display: flex;      /*UTILIZAR SIEMPRE PARA MODIFICAR POSICIONES DE TEXTO*/
+    justify-content: space-around;
+}

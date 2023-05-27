@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLASE DE CSS</title>
+    <link rel="stylesheet" href="styles.css"
+    <link rel="preconnect" href="https://fonts.googleapis.com">     <!--COPIAMOS ESTO DESDE FONTS-GOOGLE-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Nuestro primer ensayo de CSS</h1> <!--El encabezado"-->
+    </header>
+    <nav 
+        <a href="#">Inicio</a> <!--Barra de navegacion,son enlances,el href hace referencia al destino,cuando no sabemos que destino ponerle utilizamos #-->
+        <a href="#">Nosotros</a>
+        <a href="#">Historia</a>
+        <a href="#">Contacto</a>
+    </nav>
+    <section>
+        <h2>Contenido</h2> <!--Declaro div, cuando es un contenedor generico y no es un elemento semantico-->
+        <div class="articulos"> <!--Declaramos div para luego poder ponerlos uno al lado de otro-->
+        <article>   <!--Aquí colocamos articles (articulos)-->
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-alert-hexagon" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M19.875 6.27c.7 .398 1.13 1.143 1.125 1.948v7.284c0 .809 -.443 1.555 -1.158 1.948l-6.75 4.27a2.269 2.269 0 0 1 -2.184 0l-6.75 -4.27a2.225 2.225 0 0 1 -1.158 -1.948v-7.285c0 -.809 .443 -1.554 1.158 -1.947l6.75 -3.98a2.33 2.33 0 0 1 2.25 0l6.75 3.98h-.033z" />
+                <path d="M12 8v4" />
+                <path d="M12 16h.01" />
+              </svg>  <!--ESTE CODIGO SVG INTRODUCIMOS UN ICONO-->
+            <h3>Introduccion</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium unde sequi neque et suscipit accusamus eos dolore! Adipisci quas voluptates dolore dolores quos nihil vel tenetur eveniet. Magnam, nam adipisci!</p>
+        </article>
+        <article>
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-book-2" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M19 4v16h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12z" />
+                <path d="M19 16h-12a2 2 0 0 0 -2 2" />
+                <path d="M9 8h6" />
+              </svg>
+            <h3>Conceptos</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reprehenderit quisquam corrupti ullam repudiandae doloremque ab doloribus ut sapiente. Molestias fugit obcaecati, nihil tempora magnam quas veniam quasi odit voluptate.</p>
+        </article>
+        <article>
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-box-model" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M8 8h8v8h-8z" />
+                <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
+                <path d="M16 16l3.3 3.3" />
+                <path d="M16 8l3.3 -3.3" />
+                <path d="M8 8l-3.3 -3.3" />
+                <path d="M8 16l-3.3 3.3" />
+              </svg>
+            <h3>Box model</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reprehenderit quisquam corrupti ullam repudiandae doloremque ab doloribus ut sapiente. Molestias fugit obcaecati, nihil tempora magnam quas veniam quasi odit voluptate.</p> 
+        </article>
+        <article>
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-command" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M7 9a2 2 0 1 1 2 -2v10a2 2 0 1 1 -2 -2h10a2 2 0 1 1 -2 2v-10a2 2 0 1 1 2 2h-10" />
+              </svg>
+            <h3>Layout</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reprehenderit quisquam corrupti ullam repudiandae doloremque ab doloribus ut sapiente. Molestias fugit obcaecati, nihil tempora magnam quas veniam quasi odit voluptate.</p> 
+        </article>
+        </div>
+    </section>
+    <footer>
+        <p>Derechos reservados &copy;2018-2023</p>
+    </footer>
+    </body>
+</header>
+    
+</body>
+</html>
